@@ -70,38 +70,6 @@ function switch (d)
     win:move(win:frame():toUnitRect(screen:frame()), screen:next(), true, 0)
 end
 
-hs.hotkey.bind(hyper, 'j', function()
-    cols (8, 2, 2)
-end)
-hs.hotkey.bind(hyper, 'k', function()
-    cols (8, 2, 4)
-end)
-
-hs.hotkey.bind(hyper, 'i', function()
-    cols (8, 2, 0)
-end)
-hs.hotkey.bind(hyper, 'o', function()
-    cols (8, 4, 2)
-end)
-hs.hotkey.bind(hyper, 'p', function()
-    cols (8, 2, 6)
-end)
-
-hs.hotkey.bind(hyper, 'h', function()
-    rows (2, 2, 0)
-end)
-hs.hotkey.bind(hyper, 'n', function()
-    rows (2, 1, 0)
-end)
-hs.hotkey.bind(hyper, 'm', function()
-    rows (2, 1, 1)
-end)
-
-hs.hotkey.bind(hyper, '[', function()
-    switch(1)
-end)
-
-
 -----------------------------------------------
 -- window hints
 -----------------------------------------------
