@@ -10,7 +10,7 @@
                 "parameters": {
                     "basic.simultaneous_threshold_milliseconds": 40,
                     "basic.to_delayed_action_delay_milliseconds": 500,
-                    "basic.to_if_alone_timeout_milliseconds": 1000,
+                    "basic.to_if_alone_timeout_milliseconds": 400,
                     "basic.to_if_held_down_threshold_milliseconds": 500,
                     "mouse_motion_to_scroll.speed": 100
                 },
@@ -564,6 +564,14 @@
                             "to": {
                                 "key_code": "left_command"
                             }
+                        },
+                        {
+                            "from": {
+                                "key_code": "right_option"
+                            },
+                            "to": {
+                                "key_code": "right_command"
+                            }
                         }
                     ]
                 }
@@ -674,7 +682,7 @@
             "simple_modifications": [
                 {
                     "from": {
-                        "key_code": "right_shift"
+                        "pointing_button": "button3"
                     },
                     "to": {
                         "key_code": "left_option"
