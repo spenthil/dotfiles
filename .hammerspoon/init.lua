@@ -19,7 +19,7 @@ hs.alert.show("Config loaded")
 -- grid
 -----------------------------------------------
 local grid = hs.grid
-grid.setGrid('8x2')
+grid.setGrid('4x2')
 grid.setMargins({0, 0})
 hs.hotkey.bind(hyper, "return", grid.toggleShow)
 
@@ -60,7 +60,7 @@ function rows (num, height, offset)
     end
 end
 
-function switch (d)
+function switch ()
     -- get the focused window
     local win = hs.window.focusedWindow()
     -- get the screen where the focused window is displayed, a.k.a. current screen
@@ -76,6 +76,13 @@ end
 
 hs.hotkey.bind(hyper, 'space', function()
     hs.hints.windowHints()
+end)
+
+-----------------------------------------------
+-- monitors
+-----------------------------------------------
+hs.hotkey.bind(hyper, '`', function()
+    switch()
 end)
 
 -----------------------------------------------
