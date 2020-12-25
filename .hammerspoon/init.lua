@@ -74,7 +74,7 @@ end
 -- window hints
 -----------------------------------------------
 
-hs.hotkey.bind(hyper, 'space', function()
+hs.hotkey.bind(hyper, '\'', function()
     hs.hints.windowHints()
 end)
 
