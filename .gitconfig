@@ -7,3 +7,4 @@
 	defaultBranch = main
 [core]
 	editor = vim
+	excludesfile = /Users/spenthil/.gitignore
