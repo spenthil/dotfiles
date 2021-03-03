@@ -109,3 +109,5 @@ export CPPFLAGS="-I/opt/homebrew/opt/openssl@1.1/include"
 
 
 export PATH="$HOME/.poetry/bin:$PATH"
+
+eval "$(pyenv init -)"
