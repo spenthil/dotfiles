@@ -1832,7 +1832,7 @@
 #auhal-volume=256
 
 # Last audio device (string)
-#auhal-audio-device=
+auhal-audio-device=0
 
 # ? (string)
 #auhal-warned-devices=
