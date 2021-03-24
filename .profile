@@ -19,4 +19,4 @@ export CPPFLAGS="-I/opt/homebrew/opt/openssl@1.1/include"
 export PATH="$HOME/.poetry/bin:$PATH"
 
 source $HOME/.aliases
-
+source $HOME/.secrets
