@@ -205,7 +205,7 @@
 #macosx-pause-minimized=0
 
 # Lock Aspect Ratio (boolean)
-#macosx-lock-aspect-ratio=1
+macosx-lock-aspect-ratio=0
 
 # Dim keyboard backlight during fullscreen playback (boolean)
 #macosx-dim-keyboard=0
@@ -1829,7 +1829,7 @@
 [auhal] # HAL AudioUnit output
 
 # Audio volume (integer)
-#auhal-volume=256
+auhal-volume=158
 
 # Last audio device (string)
 auhal-audio-device=0
