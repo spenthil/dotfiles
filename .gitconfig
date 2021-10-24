@@ -9,3 +9,5 @@
 	editor = vim
 	excludesfile = /Users/spenthil/.gitignore
 	autocrlf = input
+[pull]
+	ff = only
