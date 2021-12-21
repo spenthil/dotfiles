@@ -6,6 +6,8 @@
 	<false/>
 	<key>Default Bookmark Guid</key>
 	<string>250892C1-D0D6-496F-A656-8DFA8DCB498F</string>
+	<key>DimInactiveSplitPanes</key>
+	<false/>
 	<key>HapticFeedbackForEsc</key>
 	<false/>
 	<key>HideScrollbar</key>
