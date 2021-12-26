@@ -9,12 +9,6 @@ hs.window.setShadows(false)
 require("hs.application")
 require("hs.window")
 
-function reload_config(files)
-    hs.reload()
-end
-hs.pathwatcher.new(os.getenv("HOME") .. "/.hammerspoon/", reload_config):start()
-hs.alert.show("Config loaded")
-
 -----------------------------------------------
 -- grid
 -----------------------------------------------
@@ -120,3 +114,14 @@ hs.hotkey.bind(hyper, 's', function()
         hs.alert.show("No active window")
     end
 end)
+
+-----------------------------------------------
+-- reload config
+-----------------------------------------------
+function reload_config(files)
+    hs.reload()
+end
+-- hs.pathwatcher.new(os.getenv("HOME") .. "/.hammerspoon/", reload_config):start()
+hs.hotkey.bind({"cmd", "ctrl"}, "r", reload_config)
+
+hs.alert.show("Config loaded")
