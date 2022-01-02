@@ -13,7 +13,7 @@ require("hs.window")
 -- grid
 -----------------------------------------------
 local grid = hs.grid
-grid.setGrid('4x2')
+grid.setGrid('8x2')
 grid.setMargins({0, 0})
 hs.hotkey.bind(hyper, "return", grid.toggleShow)
 

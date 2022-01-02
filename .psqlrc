@@ -1,2 +1,10 @@
+\set QUIET 1
+
 \pset pager off
 \x auto
+\set client_min_messages WARNING;
+\set ON_ERROR_ROLLBACK interactive
+\set COMP_KEYWORD_CASE upper
+\pset null '(null)'
+
+\unset QUIET
